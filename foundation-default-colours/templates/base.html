@@ -14,6 +14,9 @@
 		{% endif %}
 		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygment/{{ FOUNDATION_PYGMENT_THEME }}.css" />
 		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/custom.css" />
+		{% if FOUNDATION_COLOUR_SCHEME %}
+		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/cs/{{ FOUNDATION_COLOUR_SCHEME }}.css" />
+		{% endif %}
 
 		{% if FOUNDATION_ALTERNATE_FONTS %}
 		<!-- GOOGLE WEB FONTS -->

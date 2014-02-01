@@ -1,0 +1,138 @@
+/* Monokai colour scheme:
+	foreground: #F8F8F2;
+	background: #272822;
+	selection background: #49483E;
+	brighter selection background: #75715E;
+	pale yellow: #FFE792;
+	dark pale yellow: #ffd646;
+	pink: #F92672;
+	dark pink: #cd064d;
+	cyan: #66D9EF;
+	dark cyan: #21c8e8;
+	green: #A6E22E;
+	dark green: #7aac18;
+	orange: #FD971F;
+	dark orange: #ce7002;
+	purple: #AE81FF;
+	dark purple: #7d35ff;
+*/
+
+/* BEGIN DOCUMENT */
+body {
+	background: #F8F8F2;
+	color: #272822;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #272822;
+}
+
+a {
+	color: #66D9EF;
+}
+
+a:hover {
+	color: #21c8e8;
+}
+
+h3 a {
+	color: #F92672;
+}
+
+h3 a:hover {
+	color: #cd064d;
+}
+
+h6 a {
+	color: #FD971F;
+}
+
+h6 a:hover {
+	color: #ce7002;
+}
+
+.continue a {
+	color: #F92672;
+}
+
+.continue a:hover {
+	color: #cd064d;
+}
+/* END DOCUMENT */
+
+/* BEGIN TOP BAR */
+.top-bar, .top-bar-section li a:not(.button), .top-bar .name h1 a {
+	background: #49483E;
+	color: #F8F8F2;
+}
+
+.top-bar-section li a:not(.button):hover {
+	background: #75715E;
+	color: #F8F8F2;
+}
+
+.top-bar-section ul li.active > a {
+	background: #FFE792;
+	color: #272822;
+}
+
+.top-bar-section ul li.active > a:hover {
+	background: #ffd646;
+	color: #272822;
+}
+/* END TOP BAR */
+
+/* BEGIN SUB NAV */
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	background: #F92672;
+	color: #F8F8F2;
+}
+
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+	background: #cd064d;
+	color: #F8F8F2;
+}
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a, .sub-nav dt, .sub-nav dd, .sub-nav li {
+	color: #75715E;
+}
+
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+	color: #F92672;
+}
+/* END SUB NAV */
+
+/* BEGIN PANEL */
+.panel {
+	background: #75715E;
+	border-color: #49483E;
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+	color: #F8F8F2;
+}
+
+.panel:first-of-type {
+	border-top: 0px;
+}
+/* END PANEL */
+
+/* BEGIN SIDE NAV */
+.side-nav li a {
+	color: #A6E22E;
+}
+
+.side-nav li a:hover {
+	color: #7aac18;
+}
+/* END SIDE NAV */
+
+/* BEGIN TAG CLOUD */
+.tag-cloud a {
+	color: #A6E22E;
+}
+
+.tag-cloud a:hover {
+	color: #7aac18;
+}
+/* END TAG CLOUD */
